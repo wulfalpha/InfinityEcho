@@ -1,6 +1,5 @@
 from time import sleep
 import random as rando
-from string import *
 
 
 def north(logic):
