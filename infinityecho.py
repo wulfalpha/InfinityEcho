@@ -44,7 +44,7 @@ def west(logic):
 
 
 def brain():
-    logic = random.randint(1, 10)
+    logic = rando.random.randint(1, 10)
     return logic
 
 
@@ -56,7 +56,7 @@ def encounter(event, mob):
 
 def baddie():
     moblow = { "Kobald", "Slime", "Bat", "Wolf", "Jackalope", "Goblin"}
-    mob = random.choice(moblow)
+    mob = rando.random.choice(moblow)
     return mob
 
 
