@@ -1,6 +1,7 @@
-from time import *
-from random import *
+from time import sleep
+import random as rando
 from string import *
+
 
 def north(logic):
     print("You head North...")
@@ -10,6 +11,7 @@ def north(logic):
     else:
         event = False
     return event
+
 
 def south(logic):
     print("You head South...")
